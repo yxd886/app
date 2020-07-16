@@ -109,4 +109,4 @@ def apiconfig():
     return jsonify(req)
 
 
-app.run(port=80)
+app.run(host = "172.24.115.206",port=80)
